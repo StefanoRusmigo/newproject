@@ -1,33 +1,6 @@
-{{-- <!DOCTYPE html>
-<html>
-<head>
-    <title>Look! I'm CRUDding</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-</head>
-<body>
-<div class="container"> --}}
 @extends('layouts.app')
 
 @section('content')
-{{-- 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="{{ URL::to('people') }}">Data table</a>
-        </div>
-        <ul class="navbar-nav">
-            <li class="navbar-brand"><a href="{{ URL::to('people') }} " style="color: white">View All </a></li>
-        </ul>
-        <ul class="navbar-nav">
-            <li class="navbar-brand"><a href="{{ URL::to('people/create') }}" style="color: white">Create </a>
-        </ul>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <form class="form-inline" action="/action_page.php">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-            </form>
-        </nav>
-    </nav>
- --}}
     <h1>All the Nerds</h1>
 
 
@@ -87,6 +60,3 @@
     </table>
     @endsection
 
-{{-- </div>
-</body>
-</html> --}}

@@ -32,7 +32,7 @@
                 </ul>
 
                 <ul class="navbar-nav">
-                    <li class="navbar-brand"><a href="{{ URL::to('create') }}" style="color: white">Create </a>
+                    <li class="navbar-brand"><a href="{{ URL::to('people/create') }}" style="color: white">Create </a>
                  </ul>
 
                  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">

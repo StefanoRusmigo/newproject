@@ -73,7 +73,7 @@ use \View;
 
     // redirect
     Session::flash('message', 'Successfully created nerd!');
-    return Redirect::to('people');
+    return Redirect::to('/');
     }
 
     /**
@@ -143,7 +143,7 @@ use \View;
 
     // redirect
     Session::flash('message', 'Successfully updated nerd!');
-    return Redirect::to('people');
+    return Redirect::to('/');
 }
 
     /**
@@ -160,7 +160,7 @@ use \View;
 
     // redirect
     Session::flash('message', 'Successfully deleted the nerd!');
-    return Redirect::to('people');
+    return Redirect::to('/');
     }
 
 

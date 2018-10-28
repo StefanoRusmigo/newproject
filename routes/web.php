@@ -11,11 +11,9 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/','PeopleController@index');
 
- Route::resource('/', 'PeopleController')->middleware('auth');;
+ Route::resource('/people', 'PeopleController')->middleware('auth');
 
 Auth::routes();
 
